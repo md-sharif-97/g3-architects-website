@@ -94,6 +94,47 @@ main{
     margin-bottom: 45px;
   }
 
+/* expirence section style */
+
+.expireance{
+  gap: 140px;
+}
+
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+}
+.expireance-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(19, 19, 19, 1);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.expireance-list{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.feature-architect img{
+  width: 100%;
+}
 /* Features section style */
 
   .teams{
