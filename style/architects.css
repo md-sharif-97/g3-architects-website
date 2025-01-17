@@ -223,11 +223,11 @@ main{
   /* responsive design */
 
   @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .expireance{
         flex-direction: column;
     }
 
-    .img-container, .facts-container, .sponsor-logo{
+    .img-container, .facts-container, .sponsor-logo,{
         grid-template-columns:1fr;
     }
 .facts-container, .sponsor-logo{
@@ -256,6 +256,10 @@ main{
   }
   .navbar{
     margin: 0 auto;
+  }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
