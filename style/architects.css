@@ -137,4 +137,25 @@ main{
       .our-features{
         margin-left: 20px;
   }
+
+  .navbar{
+    margin: 0 auto;
+  }
+}
+
+/* medium size device responsive design */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .our-features{
+    margin: 40px auto;
+  }
+  .navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
 }
